@@ -5,6 +5,7 @@ import { Search } from "./Search";
 export function LandingPage(){
 return (
     <div>
+        
 <Search/>
 
 <MoviesGrid/>

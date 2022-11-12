@@ -10,12 +10,12 @@ export function Search (){
     let navigate = useNavigate();
    // http://localhost:3000/
  
-    const  handleSubmit=(e)=>{
+    const handleSubmit=(e)=>{
      e.preventDefault()//despues de setear el valor de searchtext no realiza el evento.Solucion...tenia en el Form onsubmit en vez de onSubmit
-     navigate('/?search=' + searchText);
+     navigate('/carteleraTMDB/?search=' + searchText);
 
     };
-       
+         
     return(
         <form className={styles.searchContainer} onSubmit={handleSubmit}>
                 <div className={styles.searchBox}>
