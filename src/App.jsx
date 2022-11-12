@@ -15,7 +15,7 @@ export function App()
   <Router>
     <header>
       {/*cuando click en "cuerpo del link" pon en el browser  TO = "/direccion" */}
-       <Link to="/carteleraTMDB">
+       <Link to="/carteleraTMDB/">
        <h1 className={styles.title}> Movies </h1>
       </Link>
       
@@ -31,7 +31,7 @@ export function App()
              y debe concidir con el camino de la linea 10 de MovieCard.jsx
             <Link to={"/movies/" + movieProp.id}> */}
             
-    <Route path="/carteleraTMDB" element={<LandingPage/>} />;
+    <Route path="/carteleraTMDB/" element={<LandingPage/>} />;
     </Routes>
     </main>
 
