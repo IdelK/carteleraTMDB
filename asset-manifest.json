@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/carteleraTMDB/static/css/main.2fa16018.css",
-    "main.js": "/carteleraTMDB/static/js/main.8f22d953.js",
+    "main.js": "/carteleraTMDB/static/js/main.ac66b1a0.js",
     "index.html": "/carteleraTMDB/index.html",
     "main.2fa16018.css.map": "/carteleraTMDB/static/css/main.2fa16018.css.map",
-    "main.8f22d953.js.map": "/carteleraTMDB/static/js/main.8f22d953.js.map"
+    "main.ac66b1a0.js.map": "/carteleraTMDB/static/js/main.ac66b1a0.js.map"
   },
   "entrypoints": [
     "static/css/main.2fa16018.css",
-    "static/js/main.8f22d953.js"
+    "static/js/main.ac66b1a0.js"
   ]
 }
