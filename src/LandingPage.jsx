@@ -1,15 +1,11 @@
-import  {MoviesGrid}  from "./MoviesGrid";
+import { MoviesGrid } from "./MoviesGrid";
 import { Search } from "./Search";
 
-
-export function LandingPage(){
-return (
+export function LandingPage() {
+  return (
     <div>
-        
-<Search/>
-
-<MoviesGrid/>
-</div>
-)
-
+      <Search />
+      <MoviesGrid />
+    </div>
+  );
 }
