@@ -1,6 +1,6 @@
-import { LandingPage } from "./LandingPage";
-import { MovieDetails } from "./MovieDetails";
-import styles from "./App.module.css";
+import { LandingPage } from "./components/landingPage/LandingPage";
+import { MovieDetails } from "./components/movieDetails/MovieDetails";
+import styles from "./css/App.module.css";
 import {
   Routes /*En React-router-dom V6 es Routes en vez de Switch */,
   BrowserRouter as Router,

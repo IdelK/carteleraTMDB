@@ -1,5 +1,5 @@
-import { MoviesGrid } from "./MoviesGrid";
-import { Search } from "./Search";
+import { MoviesGrid } from "../moviesGrid/MoviesGrid";
+import { Search } from "../../helpers/Search";
 
 export function LandingPage() {
   return (

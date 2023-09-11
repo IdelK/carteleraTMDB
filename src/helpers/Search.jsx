@@ -1,4 +1,4 @@
-import styles from "./Search.module.css";
+import styles from "../css/Search.module.css";
 import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

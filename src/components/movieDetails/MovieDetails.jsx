@@ -2,9 +2,9 @@
 import { useEffect,useState } from "react";
 import { useParams } from 'react-router-dom';// en la V5 useParams se importa desde "react" junto con useEffect,useState,en la V6 from 'react-router-dom' 
                                              //si por error usas el metodo de la V5 import from "react" el programa compila pero no captura el parametro movieId desde el browser 
-import styles from "./MovieDetails.module.css";
-import { Spinner } from "./Spinner";
-import {get} from "./get"
+import styles from "../../css/MovieDetails.module.css";
+import { Spinner } from "../../helpers/Spinner";
+import {get} from "../../helpers/get"
 //import movie from "./movie.json";
 
 export function MovieDetails(){
@@ -25,7 +25,7 @@ export function MovieDetails(){
                             setIsLoading(false);
                             setMovie(data);
                             });
-},[movieId]);
+},[movieId,url]);
 if(isLoading){return <Spinner/>}    
 if(! movie){return null}; 
 

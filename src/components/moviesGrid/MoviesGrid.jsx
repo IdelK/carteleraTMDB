@@ -1,10 +1,10 @@
 import { useEffect , useState } from "react";
-import { MovieCard } from "./MovieCard";        // de un jsx se importa CON {}
+import { MovieCard } from "../movieCard/MovieCard";        // de un jsx se importa CON {}
 /* import movies from "./movies.json";   */           // de un JSON se importa SIN {}
-import styles from "./MoviesGrid.module.css";   // de un .CSS se importa SIN {}
-import { get } from "./get";
+import styles from "../../css/MoviesGrid.module.css";   // de un .CSS se importa SIN {}
+import { get } from "../../helpers/get";
 import { useLocation } from "react-router-dom";
-import { Spinner } from "./Spinner";
+import { Spinner } from "../../helpers/Spinner";
 
 
 function useQuery(){
@@ -32,7 +32,7 @@ export function MoviesGrid()
       : url;
     get(searchUrl).then(data=>{
 
-                        movies=data.results;
+                       // movies=data.results;
                         setMovies(data.results);
                         setIsLoading(false);});
        //                 if(movies.length == 0){  searchUrl = url }
